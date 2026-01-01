@@ -6,7 +6,8 @@ from sqlalchemy.orm import Session
 
 from app.database import get_db
 from app.schemas.student import StudentCreate, StudentResponse
-from app.services import department_service, student_service
+from app.schemas.enrollment import EnrollmentResponse
+from app.services import department_service, student_service, enrollment_service
 from app.exceptions import not_found, conflict, bad_request
 
 router = APIRouter(prefix="/api/students", tags=["students"])
@@ -46,4 +47,13 @@ def create_student(student: StudentCreate, db: Session = Depends(get_db)):
         raise conflict(f"Student with number '{student.student_number}' already exists")
     
     return student_service.create_student(db, student)
+
+
+@router.get("/{student_id}/enrollments", response_model=list[EnrollmentResponse])
+def get_student_enrollments(student_id: int, db: Session = Depends(get_db)):
+    """Get all enrollments for a student."""
+    student = student_service.get_student_by_id(db, student_id)
+    if not student:
+        raise not_found("Student", student_id)
+    return enrollment_service.get_student_enrollments(db, student_id)
 

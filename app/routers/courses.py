@@ -6,7 +6,9 @@ from sqlalchemy.orm import Session
 
 from app.database import get_db
 from app.schemas.course import CourseCreate, CourseUpdate, CourseResponse
-from app.services import department_service, course_service
+from app.schemas.student import StudentResponse
+from app.schemas.enrollment import AvailabilityResponse
+from app.services import department_service, course_service, enrollment_service
 from app.exceptions import not_found, conflict, bad_request
 
 router = APIRouter(prefix="/api/courses", tags=["courses"])
@@ -58,4 +60,22 @@ def delete_course(course_id: int, db: Session = Depends(get_db)):
     deleted = course_service.delete_course(db, course_id)
     if not deleted:
         raise not_found("Course", course_id)
+
+
+@router.get("/{course_id}/students", response_model=list[StudentResponse])
+def get_course_students(course_id: int, db: Session = Depends(get_db)):
+    """Get all actively enrolled students in a course."""
+    course = course_service.get_course_by_id(db, course_id)
+    if not course:
+        raise not_found("Course", course_id)
+    return enrollment_service.get_students_in_course(db, course_id)
+
+
+@router.get("/{course_id}/availability", response_model=AvailabilityResponse)
+def get_course_availability(course_id: int, db: Session = Depends(get_db)):
+    """Get seat availability for a course."""
+    availability = enrollment_service.get_course_availability(db, course_id)
+    if not availability:
+        raise not_found("Course", course_id)
+    return availability
 
