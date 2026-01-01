@@ -17,5 +17,6 @@ EXPOSE 8000
 
 # Run migrations and start server using startup script
 # PORT is provided by Railway, defaults to 8000 for local
-CMD ["./start.sh"]
+# Use shell form to ensure proper error handling
+CMD ["/bin/bash", "-c", "./start.sh"]
 
