@@ -15,9 +15,9 @@ router = APIRouter(prefix="/api/courses", tags=["courses"])
 
 
 @router.get("/", response_model=list[CourseResponse])
-def list_courses(dept: str | None = None, db: Session = Depends(get_db)):
-    """Get all courses, optionally filtered by department code."""
-    return course_service.get_all_courses(db, dept_code=dept)
+def list_courses(dept: str | None = None, dept_id: int | None = None, db: Session = Depends(get_db)):
+    """Get all courses, optionally filtered by department code or ID."""
+    return course_service.get_all_courses(db, dept_code=dept, dept_id=dept_id)
 
 
 @router.get("/{course_id}", response_model=CourseResponse)

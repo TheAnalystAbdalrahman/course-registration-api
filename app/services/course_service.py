@@ -1,6 +1,7 @@
 """
 Course service layer for business logic
 """
+from sqlalchemy import func
 from sqlalchemy.orm import Session
 
 from app.models.course import Course
@@ -8,11 +9,13 @@ from app.models.department import Department
 from app.schemas.course import CourseCreate, CourseUpdate
 
 
-def get_all_courses(db: Session, dept_code: str | None = None) -> list[Course]:
-    """Get all courses, optionally filtered by department code."""
+def get_all_courses(db: Session, dept_code: str | None = None, dept_id: int | None = None) -> list[Course]:
+    """Get all courses, optionally filtered by department code (case-insensitive) or ID."""
     query = db.query(Course)
     if dept_code:
-        query = query.join(Department).filter(Department.code == dept_code)
+        query = query.join(Department).filter(func.upper(Department.code) == dept_code.upper())
+    elif dept_id:
+        query = query.filter(Course.department_id == dept_id)
     return query.all()
 
 
