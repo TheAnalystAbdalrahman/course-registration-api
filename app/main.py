@@ -3,7 +3,7 @@ Course Registration API - Main Application Entry Point
 """
 from fastapi import FastAPI
 
-from app.routers import departments_router, courses_router
+from app.routers import departments_router, courses_router, students_router
 
 app = FastAPI(
     title="Course Registration API",
@@ -14,6 +14,7 @@ app = FastAPI(
 # Register routers
 app.include_router(departments_router)
 app.include_router(courses_router)
+app.include_router(students_router)
 
 
 @app.get("/", tags=["root"])
