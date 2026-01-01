@@ -3,11 +3,16 @@ Course Registration API - Main Application Entry Point
 """
 from fastapi import FastAPI
 
+from app.routers import departments_router
+
 app = FastAPI(
     title="Course Registration API",
     description="API for managing course registrations, departments, students, and enrollments",
     version="1.0.0",
 )
+
+# Register routers
+app.include_router(departments_router)
 
 
 @app.get("/", tags=["root"])
