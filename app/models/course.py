@@ -13,7 +13,7 @@ class Course(Base):
     __tablename__ = "courses"
     
     id = Column(Integer, primary_key=True, index=True)
-    code = Column(String(20), unique=True, nullable=False, index=True)
+    code = Column(String(20), unique=False, nullable=False, index=True)
     name = Column(String(200), nullable=False)
     credits = Column(Integer, nullable=False)
     department_id = Column(Integer, ForeignKey("departments.id"), nullable=False)
