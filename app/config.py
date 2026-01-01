@@ -8,7 +8,7 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     """Application settings loaded from environment variables."""
     
-    database_url: str
+    database_url: str | None = None
     debug: bool = False
     
     class Config:
@@ -19,7 +19,12 @@ class Settings(BaseSettings):
         extra = "ignore"
 
 
-# Initialize settings
-# Railway provides DATABASE_URL as an environment variable
+# Initialize settings - database_url is optional to allow app startup without DB
+# Railway provides DATABASE_URL as an environment variable when database is linked
 settings = Settings()
+
+
+def get_settings() -> Settings:
+    """Get settings instance (for backward compatibility and explicit access)."""
+    return settings
 

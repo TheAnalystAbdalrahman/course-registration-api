@@ -6,7 +6,7 @@ from sqlalchemy import pool
 from alembic import context
 
 # Import app configuration and models
-from app.config import settings
+from app.config import get_settings
 from app.database import Base
 
 # Import all models here so Alembic can detect them
@@ -16,7 +16,13 @@ from app.models import *  # noqa: F401, F403
 # access to the values within the .ini file in use.
 config = context.config
 
-# Set the sqlalchemy.url from app config
+# Get settings and set the sqlalchemy.url from app config
+settings = get_settings()
+if not settings.database_url:
+    raise ValueError(
+        "DATABASE_URL environment variable is not set. "
+        "Cannot run migrations without a database connection."
+    )
 config.set_main_option("sqlalchemy.url", settings.database_url)
 
 # Interpret the config file for Python logging.
