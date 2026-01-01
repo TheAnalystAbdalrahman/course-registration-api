@@ -1,0 +1,1570 @@
+[
+  {
+    "code": "CMPE215",
+    "name": "Algorithms And Data Structures",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "CMPE216",
+    "name": "Object Oriented Programming",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "CMPE232",
+    "name": "Operating Systems",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "CMPE252",
+    "name": "Analysis Of Algorithms",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "CMPE321",
+    "name": "Micropocessors",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "CMPE341",
+    "name": "Database Systems",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ELEE211",
+    "name": "Digital Logic Design",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ELEE231",
+    "name": "Circuit Theory-I",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGL121",
+    "name": "English-I",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGL122",
+    "name": "English-Ii",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR101",
+    "name": "Information Technology And Applications",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGR103",
+    "name": "Computer Programming-I",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGR104",
+    "name": "Computer Programming-Ii",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR215",
+    "name": "Research Methods For Engineering And Architecture",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR401",
+    "name": "Engineering Design-I",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGR402",
+    "name": "Engineering Design-Ii",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR404",
+    "name": "Engineering Attributes And Ethics",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGRXX1",
+    "name": "Faculty Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGRXX2",
+    "name": "Faculty Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGRXX3",
+    "name": "Faculty Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGRXX4",
+    "name": "Faculty Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "MATH121",
+    "name": "Calculus-I",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "MATH122",
+    "name": "Calculus-Ii",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "MATH123",
+    "name": "Discrete Mathematics",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "MATH124",
+    "name": "Linear Algebra",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "MATH225",
+    "name": "Differential Equations",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "MATH328",
+    "name": "Numerical Analysis",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "OHSA206",
+    "name": "Occupational Health  And Safety",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "PHYS121",
+    "name": "Physics-I",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "PHYS122",
+    "name": "Physics-Ii",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "SFWE315",
+    "name": "Visual Programming",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWE343",
+    "name": "Software Analysis And Design",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWE344",
+    "name": "Software Project Management",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "SFWE403",
+    "name": "Summer Training",
+    "credits": 1,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Summer 2024"
+  },
+  {
+    "code": "SFWE411",
+    "name": "Software Validation And Testing",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "SFWE415",
+    "name": "Software Architecture",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWEXX1",
+    "name": "Area Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "SFWEXX2",
+    "name": "Area Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWEXX3",
+    "name": "Area Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWEXX4",
+    "name": "Area Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "STAT226",
+    "name": "Probability And Statistics",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "HIST111",
+    "name": "Ataturk'S Principles And History Of Turkish Reforms-I",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "HIST112",
+    "name": "Ataturk'S Principles And History Of Turkish Reforms-Ii",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "TURK131",
+    "name": "Turkish Language-I / Turkish As A Foreign Language-I",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "TURK132",
+    "name": "Turkish Language-Ii / Turkish As A Foreign Language-Ii",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "UNIEXX1",
+    "name": "University Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "UNIEXX2",
+    "name": "University Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "UNIEXX3",
+    "name": "University Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "UNIEXX4",
+    "name": "University Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "CMPE215",
+    "name": "Algorithms And Data Structures",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "CMPE216",
+    "name": "Object Oriented Programming",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "CMPE232",
+    "name": "Operating Systems",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "CMPE252",
+    "name": "Analysis Of Algorithms",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "CMPE321",
+    "name": "Micropocessors",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "CMPE341",
+    "name": "Database Systems",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ELEE211",
+    "name": "Digital Logic Design",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ELEE231",
+    "name": "Circuit Theory-I",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGL121",
+    "name": "English-I",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGL122",
+    "name": "English-Ii",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR101",
+    "name": "Information Technology And Applications",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGR103",
+    "name": "Computer Programming-I",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGR104",
+    "name": "Computer Programming-Ii",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR215",
+    "name": "Research Methods For Engineering And Architecture",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR401",
+    "name": "Engineering Design-I",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGR402",
+    "name": "Engineering Design-Ii",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR404",
+    "name": "Engineering Attributes And Ethics",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGRXX1",
+    "name": "Faculty Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGRXX2",
+    "name": "Faculty Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGRXX3",
+    "name": "Faculty Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGRXX4",
+    "name": "Faculty Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "MATH121",
+    "name": "Calculus-I",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "MATH122",
+    "name": "Calculus-Ii",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "MATH123",
+    "name": "Discrete Mathematics",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "MATH124",
+    "name": "Linear Algebra",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "MATH225",
+    "name": "Differential Equations",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "MATH328",
+    "name": "Numerical Analysis",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "OHSA206",
+    "name": "Occupational Health  And Safety",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "PHYS121",
+    "name": "Physics-I",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "PHYS122",
+    "name": "Physics-Ii",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "SFWE315",
+    "name": "Visual Programming",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWE343",
+    "name": "Software Analysis And Design",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWE344",
+    "name": "Software Project Management",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "SFWE403",
+    "name": "Summer Training",
+    "credits": 1,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Summer 2024"
+  },
+  {
+    "code": "SFWE411",
+    "name": "Software Validation And Testing",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "SFWE415",
+    "name": "Software Architecture",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWEXX1",
+    "name": "Area Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "SFWEXX2",
+    "name": "Area Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWEXX3",
+    "name": "Area Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWEXX4",
+    "name": "Area Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "STAT226",
+    "name": "Probability And Statistics",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "HIST111",
+    "name": "Ataturk'S Principles And History Of Turkish Reforms-I",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "HIST112",
+    "name": "Ataturk'S Principles And History Of Turkish Reforms-Ii",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "TURK131",
+    "name": "Turkish Language-I / Turkish As A Foreign Language-I",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "TURK132",
+    "name": "Turkish Language-Ii / Turkish As A Foreign Language-Ii",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "UNIEXX1",
+    "name": "University Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "UNIEXX2",
+    "name": "University Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "UNIEXX3",
+    "name": "University Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "UNIEXX4",
+    "name": "University Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "CMPE215",
+    "name": "Algorithms And Data Structures",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "CMPE216",
+    "name": "Object Oriented Programming",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "CMPE232",
+    "name": "Operating Systems",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "CMPE252",
+    "name": "Analysis Of Algorithms",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "CMPE321",
+    "name": "Micropocessors",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "CMPE341",
+    "name": "Database Systems",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ELEE211",
+    "name": "Digital Logic Design",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ELEE231",
+    "name": "Circuit Theory-I",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGL121",
+    "name": "English-I",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGL122",
+    "name": "English-Ii",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR101",
+    "name": "Information Technology And Applications",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGR103",
+    "name": "Computer Programming-I",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGR104",
+    "name": "Computer Programming-Ii",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR215",
+    "name": "Research Methods For Engineering And Architecture",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR401",
+    "name": "Engineering Design-I",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGR402",
+    "name": "Engineering Design-Ii",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR404",
+    "name": "Engineering Attributes And Ethics",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGRXX1",
+    "name": "Faculty Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGRXX2",
+    "name": "Faculty Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGRXX3",
+    "name": "Faculty Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGRXX4",
+    "name": "Faculty Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "MATH121",
+    "name": "Calculus-I",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "MATH122",
+    "name": "Calculus-Ii",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "MATH123",
+    "name": "Discrete Mathematics",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "MATH124",
+    "name": "Linear Algebra",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "MATH225",
+    "name": "Differential Equations",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "MATH328",
+    "name": "Numerical Analysis",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "OHSA206",
+    "name": "Occupational Health  And Safety",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "PHYS121",
+    "name": "Physics-I",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "PHYS122",
+    "name": "Physics-Ii",
+    "credits": 4,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "SFWE315",
+    "name": "Visual Programming",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWE343",
+    "name": "Software Analysis And Design",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWE344",
+    "name": "Software Project Management",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "SFWE403",
+    "name": "Summer Training",
+    "credits": 1,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Summer 2024"
+  },
+  {
+    "code": "SFWE411",
+    "name": "Software Validation And Testing",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "SFWE415",
+    "name": "Software Architecture",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWEXX1",
+    "name": "Area Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "SFWEXX2",
+    "name": "Area Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWEXX3",
+    "name": "Area Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "SFWEXX4",
+    "name": "Area Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "STAT226",
+    "name": "Probability And Statistics",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "HIST111",
+    "name": "Ataturk'S Principles And History Of Turkish Reforms-I",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "HIST112",
+    "name": "Ataturk'S Principles And History Of Turkish Reforms-Ii",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "TURK131",
+    "name": "Turkish Language-I / Turkish As A Foreign Language-I",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "TURK132",
+    "name": "Turkish Language-Ii / Turkish As A Foreign Language-Ii",
+    "credits": 2,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "UNIEXX1",
+    "name": "University Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "UNIEXX2",
+    "name": "University Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "UNIEXX3",
+    "name": "University Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "UNIEXX4",
+    "name": "University Elective",
+    "credits": 3,
+    "department_id": 1,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "AINE201",
+    "name": "FUNDAMENTALS OF ARTIFICIAL INTELLIGENCE",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "AINE204",
+    "name": "ARTIFICIAL INTELLIGENCE TOOLS",
+    "credits": 4,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "AINE301",
+    "name": "BASIC SEARCH METHODS",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "AINE312",
+    "name": "DATA SCIENCE",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "AINE332",
+    "name": "DEEP NEURAL NETWORKS",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "AINE334",
+    "name": "KNOWLEDGE REPRESENTATION AND REASONING",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "AINE403",
+    "name": "SUMMER TRAINING",
+    "credits": 1,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "AINE413",
+    "name": "MACHINE LEARNING",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "AINEXX1",
+    "name": "AREA ELECTIVE",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "AINEXX2",
+    "name": "AREA ELECTIVE",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "AINEXX3",
+    "name": "AREA ELECTIVE",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "AINEXX4",
+    "name": "AREA ELECTIVE",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "CMPE215",
+    "name": "ALGORITHMS AND DATA STRUCTURES",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "CMPE216",
+    "name": "OBJECT ORIENTED PROGRAMMING",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "CMPE252",
+    "name": "ANALYSIS OF ALGORITHMS",
+    "credits": 4,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "CMPE321",
+    "name": "MICROPROCESSORS",
+    "credits": 4,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "CMPE341",
+    "name": "DATABASE SYSTEMS",
+    "credits": 4,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ELEE211",
+    "name": "DIGITAL LOGIC DESIGN",
+    "credits": 4,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGL121",
+    "name": "ENGLISH-I",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGL122",
+    "name": "ENGLISH-II",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR101",
+    "name": "INFORMATION TECHNOLOGY AND APPLICATIONS",
+    "credits": 2,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGR103",
+    "name": "COMPUTER PROGRAMMING-I",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGR104",
+    "name": "COMPUTER PROGRAMMING-II",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR215",
+    "name": "RESEARCH METHODS FOR ENGINEERING AND ARCHITECTURE",
+    "credits": 2,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR401",
+    "name": "ENGINEERING DESIGN-I",
+    "credits": 2,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGR402",
+    "name": "ENGINEERING DESIGN-II",
+    "credits": 2,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGR404",
+    "name": "ENGINEERING ATTRIBUTES AND ETHICS",
+    "credits": 2,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGRXX1",
+    "name": "FACULTY ELECTIVE",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "ENGRXX2",
+    "name": "FACULTY ELECTIVE",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGRXX3",
+    "name": "FACULTY ELECTIVE",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "ENGRXX4",
+    "name": "FACULTY ELECTIVE",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "MATH121",
+    "name": "CALCULUS-I",
+    "credits": 4,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "MATH122",
+    "name": "CALCULUS-II",
+    "credits": 4,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "MATH123",
+    "name": "DISCRETE MATHEMATICS",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "MATH124",
+    "name": "LINEAR ALGEBRA",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "MATH225",
+    "name": "DIFFERENTIAL EQUATIONS",
+    "credits": 4,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "OHSA206",
+    "name": "OCCUPATIONAL HEALTH  AND SAFETY",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "PHYS121",
+    "name": "PHYSICS-I",
+    "credits": 4,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "PHYS122",
+    "name": "PHYSICS-II",
+    "credits": 4,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "SFWE343",
+    "name": "SOFTWARE ANALYSIS AND DESIGN",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "STAT226",
+    "name": "PROBABILITY AND STATISTICS",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "HIST111",
+    "name": "ATATURK'S PRINCIPLES AND HISTORY OF TURKISH REFORMS-I",
+    "credits": 2,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "HIST112",
+    "name": "ATATURK'S PRINCIPLES AND HISTORY OF TURKISH REFORMS-II",
+    "credits": 2,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "TUOG101/TURK131",
+    "name": "TURKISH LANGUAGE-I/TURKISH AS A FOREIGN LANGUAGE-I",
+    "credits": 2,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "TURK132",
+    "name": "TURKISH AS A FOREIGN LANGUAGE-II",
+    "credits": 2,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "UNIEXX1",
+    "name": "UNIVERSITY ELECTIVE",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "UNIEXX2",
+    "name": "UNIVERSITY ELECTIVE",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  },
+  {
+    "code": "UNIEXX3",
+    "name": "UNIVERSITY ELECTIVE",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Spring 2024"
+  },
+  {
+    "code": "UNIEXX4",
+    "name": "UNIVERSITY ELECTIVE",
+    "credits": 3,
+    "department_id": 3,
+    "max_students": 40,
+    "semester": "Fall 2024"
+  }
+]

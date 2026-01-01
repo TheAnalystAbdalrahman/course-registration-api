@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "name": "Software Engineering",
+    "code": "SFWE"
+  },
+  {
+    "id": 2,
+    "name": "Computer Engineering",
+    "code": "CMPE"
+  },
+  {
+    "id": 3,
+    "name": "Artificial Intelligence Engineering",
+    "code": "AINE"
+  },
+  {
+    "id": 4,
+    "name": "Civil Engineering",
+    "code": "CVIL"
+  },
+  {
+    "id": 5,
+    "name": "International Law",
+    "code": "ILAW"
+  },
+  {
+    "id": 6,
+    "name": "Political Science and International Relations",
+    "code": "PSIR"
+  },
+  {
+    "id": 7,
+    "name": "Management Information Systems",
+    "code": "MISY"
+  },
+  {
+    "id": 8,
+    "name": "PHYCHOLOGICAL AND COUNSELING GUIDANCE (TURKISH)",
+    "code": "PCGT"
+  },
+  {
+    "id": 9,
+    "name": "PRESCHOOL TEACHING (TURKISH)",
+    "code": "PTT"
+  },
+  {
+    "id": 10,
+    "name": "PSYCHOLOGICAL COUNSELING AND GUIDANCE (ENGLİSH)",
+    "code": "PCGE"
+  },
+  {
+    "id": 11,
+    "name": "TÜRKÇE ÖĞRETMENLİĞİ",
+    "code": "TO"
+  },
+  {
+    "id": 12,
+    "name": "İLKÖĞRETİM MATEMATİK ÖĞRETMENLİĞİ",
+    "code": "IMO"
+  },
+  {
+    "id": 13,
+    "name": "ELT",
+    "code": "ELT"
+  },
+  {
+    "id": 14,
+    "name": "ÖZEL EĞİTİM ÖĞRETMENLİĞİ",
+    "code": "OEO"
+  },
+  {
+    "id": 15,
+    "name": "MATEMATİK ÖĞRETMENLİĞİ",
+    "code": "MO"
+  },
+  {
+    "id": 16,
+    "name": "TÜRK DİLİ VE EDEBİYATI ÖĞRETMENLİĞİ",
+    "code": "TDVEO"
+  },
+  {
+    "id": 17,
+    "name": "BUSINESS ADMINISTRATION (MARKETING) - ULSTER UNIV.",
+    "code": "BAMUU"
+  },
+  {
+    "id": 18,
+    "name": "BUSINESS ADMINISTRATION (ENTERPRISE) - ULSTER UNIV.",
+    "code": "BAEUU"
+  },
+  {
+    "id": 19,
+    "name": "MARKETING (DIGITAL MEDIA)",
+    "code": "MDM"
+  },
+  {
+    "id": 20,
+    "name": "ECONOMICS – UNIVERSITY OF HULL",
+    "code": "EUH"
+  },
+  {
+    "id": 21,
+    "name": "AĞIZ, DİŞ VE ÇENE CERRAHİSİ (PhD)",
+    "code": "ADVCCP"
+  },
+  {
+    "id": 22,
+    "name": "PROTETİK DİŞ TEDAVİSİ (PhD)",
+    "code": "PDTP"
+  },
+  {
+    "id": 23,
+    "name": "BUSINESS ADMINISTRATION (PhD)",
+    "code": "BAP"
+  }
+]
