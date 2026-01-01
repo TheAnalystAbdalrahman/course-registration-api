@@ -1,0 +1,13 @@
+name: course-reg-api
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - fastapi
+      - uvicorn
+      - sqlalchemy
+      - alembic
+      - psycopg2-binary
+      - python-dotenv
