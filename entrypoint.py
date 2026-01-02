@@ -4,6 +4,7 @@ import sys
 import subprocess
 
 os.environ["PYTHONUNBUFFERED"] = "1"
+print("ENTRYPOINT FILE ACTUALLY EXECUTED ✅", flush=True)
 
 print("=" * 50, flush=True)
 print("Starting Course Registration API", flush=True)
