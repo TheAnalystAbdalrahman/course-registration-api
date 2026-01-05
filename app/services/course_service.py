@@ -1,7 +1,7 @@
 """
 Course service layer for business logic
 """
-from sqlalchemy import func
+from sqlalchemy import func, or_
 from sqlalchemy.orm import Session
 
 from app.models.course import Course
@@ -9,14 +9,69 @@ from app.models.department import Department
 from app.schemas.course import CourseCreate, CourseUpdate
 
 
-def get_all_courses(db: Session, dept_code: str | None = None, dept_id: int | None = None) -> list[Course]:
-    """Get all courses, optionally filtered by department code (case-insensitive) or ID."""
+def get_all_courses(
+    db: Session,
+    page: int = 1,
+    page_size: int = 20,
+    dept_code: str | None = None,
+    dept_id: int | None = None,
+    semester: str | None = None,
+    search: str | None = None,
+    sort_by: str = "name",
+    sort_order: str = "asc"
+) -> tuple[list[Course], int]:
+    """
+    Get all courses with pagination, filtering, sorting, and search.
+    
+    Returns:
+        tuple: (list of courses, total count)
+    """
     query = db.query(Course)
+    
+    # Apply filters
     if dept_code:
         query = query.join(Department).filter(func.upper(Department.code) == dept_code.upper())
     elif dept_id:
         query = query.filter(Course.department_id == dept_id)
-    return query.all()
+    
+    if semester:
+        query = query.filter(Course.semester == semester)
+    
+    if search:
+        search_pattern = f"%{search}%"
+        query = query.filter(
+            or_(
+                Course.code.ilike(search_pattern),
+                Course.name.ilike(search_pattern)
+            )
+        )
+    
+    # Get total count before pagination
+    total = query.count()
+    
+    # Apply sorting
+    sort_column = None
+    if sort_by == "name":
+        sort_column = Course.name
+    elif sort_by == "code":
+        sort_column = Course.code
+    elif sort_by == "credits":
+        sort_column = Course.credits
+    elif sort_by == "semester":
+        sort_column = Course.semester
+    else:
+        sort_column = Course.name  # Default
+    
+    if sort_order == "desc":
+        query = query.order_by(sort_column.desc())
+    else:
+        query = query.order_by(sort_column.asc())
+    
+    # Apply pagination
+    offset = (page - 1) * page_size
+    courses = query.offset(offset).limit(page_size).all()
+    
+    return courses, total
 
 
 def get_course_by_id(db: Session, course_id: int) -> Course | None:
