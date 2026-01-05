@@ -23,4 +23,14 @@ class Course(Base):
     # Relationships
     department = relationship("Department", back_populates="courses")
     enrollments = relationship("Enrollment", back_populates="course")
+    prerequisites = relationship(
+        "Prerequisite",
+        foreign_keys="Prerequisite.course_id",
+        back_populates="course"
+    )
+    is_prerequisite_for = relationship(
+        "Prerequisite",
+        foreign_keys="Prerequisite.prerequisite_id",
+        back_populates="prerequisite"
+    )
 
