@@ -21,4 +21,5 @@ class Student(Base):
     # Relationships
     department = relationship("Department", back_populates="students")
     enrollments = relationship("Enrollment", back_populates="student")
+    user = relationship("User", back_populates="student", uselist=False)
 
