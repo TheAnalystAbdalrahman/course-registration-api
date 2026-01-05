@@ -30,12 +30,21 @@ def root():
 # Import and register routers - these may fail if database is not configured
 # but the health endpoint above will still work
 try:
-    from app.routers import departments_router, courses_router, students_router, enrollments_router
+    from app.routers import (
+        departments_router,
+        courses_router,
+        students_router,
+        enrollments_router,
+        auth_router,
+        prerequisites_router
+    )
     
+    app.include_router(auth_router)
     app.include_router(departments_router)
     app.include_router(courses_router)
     app.include_router(students_router)
     app.include_router(enrollments_router)
+    app.include_router(prerequisites_router)
 except Exception as e:
     # Log the error but don't crash - health endpoint will still work
     import sys
