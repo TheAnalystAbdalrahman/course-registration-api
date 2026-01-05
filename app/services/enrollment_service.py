@@ -14,7 +14,7 @@ from sqlalchemy.orm import Session
 from app.models.enrollment import Enrollment
 from app.models.student import Student
 from app.schemas.enrollment import EnrollmentCreate
-from app.services import student_service, course_service
+from app.services import student_service, course_service, prerequisite_service
 from app.exceptions import bad_request, conflict
 
 
@@ -61,6 +61,16 @@ def create_enrollment(db: Session, enrollment: EnrollmentCreate) -> Enrollment:
     course = course_service.get_course_by_id(db, enrollment.course_id)
     if not course:
         raise bad_request(f"Course with id {enrollment.course_id} does not exist")
+    
+    # Check prerequisites
+    all_met, missing_prereqs = prerequisite_service.check_prerequisites_met(
+        db, enrollment.student_id, enrollment.course_id
+    )
+    if not all_met:
+        missing_codes = [p.code for p in missing_prereqs]
+        raise bad_request(
+            f"Prerequisites not met. Missing prerequisites: {', '.join(missing_codes)}"
+        )
     
     # Check for existing enrollment record
     existing = get_enrollment_by_student_and_course(
