@@ -68,7 +68,7 @@ def login(
     
     access_token_expires = timedelta(minutes=30)
     access_token = auth_service.create_access_token(
-        data={"sub": user.email, "role": user.role.value},
+        data={"sub": user.email, "role": user.role},  # role is already a string
         expires_delta=access_token_expires
     )
     return {"access_token": access_token, "token_type": "bearer"}
@@ -94,7 +94,7 @@ def login_json(
     
     access_token_expires = timedelta(minutes=30)
     access_token = auth_service.create_access_token(
-        data={"sub": user.email, "role": user.role.value},
+        data={"sub": user.email, "role": user.role},  # role is already a string
         expires_delta=access_token_expires
     )
     return {"access_token": access_token, "token_type": "bearer"}

@@ -58,7 +58,7 @@ def require_role(required_role: UserRole):
     async def role_checker(
         current_user: User = Depends(get_current_active_user)
     ) -> User:
-        if current_user.role != required_role:
+        if current_user.role != required_role.value:  # Compare string with enum value
             raise HTTPException(
                 status_code=status.HTTP_403_FORBIDDEN,
                 detail=f"Access denied. Required role: {required_role.value}"
@@ -73,8 +73,9 @@ def require_roles(required_roles: list[UserRole]):
     async def roles_checker(
         current_user: User = Depends(get_current_active_user)
     ) -> User:
-        if current_user.role not in required_roles:
-            roles_str = ", ".join([r.value for r in required_roles])
+        required_role_values = [r.value for r in required_roles]
+        if current_user.role not in required_role_values:  # Compare string with enum values
+            roles_str = ", ".join(required_role_values)
             raise HTTPException(
                 status_code=status.HTTP_403_FORBIDDEN,
                 detail=f"Access denied. Required roles: {roles_str}"

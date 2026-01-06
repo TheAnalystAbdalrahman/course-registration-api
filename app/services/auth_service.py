@@ -64,7 +64,7 @@ def create_user(db: Session, user_create: UserCreate) -> User:
     db_user = User(
         email=user_create.email,
         hashed_password=hashed_password,
-        role=user_create.role,
+        role=user_create.role.value,  # Store enum value as string
         student_id=user_create.student_id
     )
     db.add(db_user)

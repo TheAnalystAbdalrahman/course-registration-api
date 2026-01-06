@@ -50,7 +50,7 @@ def get_student(
 ):
     """Get a student by ID."""
     # Students can only view their own profile, Admin/Faculty can view any
-    if current_user.role == UserRole.STUDENT:
+    if current_user.role == UserRole.STUDENT.value:
         if current_user.student_id != student_id:
             raise HTTPException(
                 status_code=status.HTTP_403_FORBIDDEN,
