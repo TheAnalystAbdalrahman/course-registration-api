@@ -33,7 +33,7 @@ def create_enrollment(
     - Re-enrolling after dropping reactivates the existing record
     """
     # Students can only enroll themselves
-    if current_user.role == UserRole.STUDENT:
+    if current_user.role == UserRole.STUDENT.value:
         if current_user.student_id != enrollment.student_id:
             raise HTTPException(
                 status_code=status.HTTP_403_FORBIDDEN,
